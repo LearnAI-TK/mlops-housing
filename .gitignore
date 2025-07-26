@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data
+data/raw/
+data/processed/
+
+# DVC cache
+.dvc/
+.dvcignore
+dvc.lock
+
+# Env files
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
