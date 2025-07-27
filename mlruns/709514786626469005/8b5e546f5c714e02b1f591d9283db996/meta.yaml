@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Kavitha/PythonProject/MLOps/mlops-project/mlruns/709514786626469005/8b5e546f5c714e02b1f591d9283db996/artifacts
+end_time: 1753598919921
+entry_point_name: ''
+experiment_id: '709514786626469005'
+lifecycle_stage: active
+run_id: 8b5e546f5c714e02b1f591d9283db996
+run_name: LinearRegression
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753598916715
+status: 3
+tags: []
+user_id: Shashank2010

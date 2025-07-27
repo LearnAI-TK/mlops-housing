@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Kavitha/PythonProject/MLOps/mlops-project/mlruns/709514786626469005/a9065d17f9fe4118be32442c41f26be8/artifacts
+end_time: 1753599303276
+entry_point_name: ''
+experiment_id: '709514786626469005'
+lifecycle_stage: active
+run_id: a9065d17f9fe4118be32442c41f26be8
+run_name: DecisionTreeRegressor
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753599299375
+status: 3
+tags: []
+user_id: Shashank2010

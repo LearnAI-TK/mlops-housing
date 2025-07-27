@@ -1,1 +1,10 @@
-# Add Python packages here 
+# Add Python packages here
+fastapi
+uvicorn
+scikit-learn
+pandas
+numpy
+mlflow
+joblib
+pydantic
+

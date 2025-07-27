@@ -1,0 +1,10 @@
+artifact_location: file:///D:/Kavitha/PythonProject/MLOps/mlops-project/mlruns/709514786626469005/models/m-89a545e66ba04336bac2af593bca1a6d/artifacts
+creation_timestamp: 1753602350948
+experiment_id: '709514786626469005'
+last_updated_timestamp: 1753602354358
+model_id: m-89a545e66ba04336bac2af593bca1a6d
+model_type: ''
+name: model
+source_run_id: a8e0043c91fc419c831118ee5436b713
+status: 2
+status_message: null

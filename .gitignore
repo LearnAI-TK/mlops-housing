@@ -19,6 +19,7 @@ data/processed/
 .dvc/
 .dvcignore
 dvc.lock
+!.dvc/config
 
 # Env files
 .env

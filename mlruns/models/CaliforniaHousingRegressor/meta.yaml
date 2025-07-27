@@ -1,0 +1,9 @@
+aliases:
+  production: '22'
+  staging: '22'
+creation_timestamp: 1753598805070
+deployment_job_id: null
+deployment_job_state: null
+description: null
+last_updated_timestamp: 1753602825470
+name: CaliforniaHousingRegressor

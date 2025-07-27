@@ -1,0 +1,22 @@
+artifact_path: file:///D:/Kavitha/PythonProject/MLOps/mlops-project/mlruns/709514786626469005/models/m-32c59325409e43a7b85a749cc72460cd/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.18
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.1
+mlflow_version: 3.1.4
+model_id: m-32c59325409e43a7b85a749cc72460cd
+model_size_bytes: 114606
+model_uuid: m-32c59325409e43a7b85a749cc72460cd
+prompts: null
+run_id: 34d2fbdf44a043b69f4fdf5f1b16b4b1
+utc_time_created: '2025-07-27 06:46:45.370800'

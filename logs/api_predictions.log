@@ -1,0 +1,353 @@
+2025-07-27 12:56:21,212 - ERROR - No model found for CaliforniaHousingRegressor in Production/Staging stages. Please train and register a model.
+2025-07-27 12:56:21,612 - INFO - Loaded scaler from scaler.pkl
+2025-07-27 13:24:52,683 - ERROR - No model found for CaliforniaHousingRegressor in Production/Staging stages. Please train and register a model.
+2025-07-27 13:24:53,034 - INFO - Loaded scaler from scaler.pkl
+2025-07-27 14:01:03,721 - INFO - Attempting to load model from MLflow registry...
+2025-07-27 14:01:13,486 - INFO - Successfully loaded model from models:/m-d8df864ef14d47e9972dd837d669edb7
+2025-07-27 14:01:13,486 - INFO - Loaded scaler from scaler.pkl
+2025-07-27 14:03:08,813 - INFO - {"timestamp": "2025-07-27T14:03:08.813722", "request_id": "0fed99da-6750-4bee-9272-2e23936fcc7d", "input_data": {"MedInc": 3.87, "HouseAge": 25.0, "AveRooms": 5.0, "AveBedrms": 1.0, "Population": 1200.0, "AveOccup": 2.5, "Latitude": 34.0, "Longitude": -118.0}, "scaled_data": {"MedInc": 3.87, "HouseAge": 24.999999999999993, "AveRooms": 4.999999999999997, "AveBedrms": 1.0000000000000042, "Population": 1200.0, "AveOccup": 2.500000000000003, "Latitude": 33.999999944885985, "Longitude": -2.286018954617229e+16}, "prediction": 3.125, "model_version": "CaliforniaHousingRegressor_v22"}
+2025-07-27 14:09:48,556 - INFO - Attempting to load model from MLflow registry...
+2025-07-27 14:09:50,553 - ERROR - Error loading model or scaler: name 'model' is not defined
+Traceback (most recent call last):
+  File "D:\Kavitha\PythonProject\MLOps\mlops-project\src\api.py", line 58, in lifespan
+    logger.info("Loaded model type:", type(model._model_impl))
+NameError: name 'model' is not defined
+2025-07-27 14:12:17,466 - INFO - Attempting to load model from MLflow registry...
+2025-07-27 14:12:19,549 - ERROR - Error loading model or scaler: name 'model' is not defined
+Traceback (most recent call last):
+  File "D:\Kavitha\PythonProject\MLOps\mlops-project\src\api.py", line 60, in lifespan
+    sklearn_model = model._model_impl  # MLflow wraps the real model inside _model_impl
+NameError: name 'model' is not defined
+2025-07-27 14:13:11,189 - INFO - Attempting to load model from MLflow registry...
+2025-07-27 14:13:33,213 - INFO - Model type: _SklearnModelWrapper
+2025-07-27 14:13:33,213 - INFO - Successfully loaded model from models:/m-d8df864ef14d47e9972dd837d669edb7
+2025-07-27 14:13:33,224 - INFO - Loaded scaler from scaler.pkl
+2025-07-27 14:13:35,262 - INFO - Attempting to load model from MLflow registry...
+2025-07-27 14:13:37,283 - INFO - Model type: _SklearnModelWrapper
+2025-07-27 14:13:37,283 - INFO - Successfully loaded model from models:/m-d8df864ef14d47e9972dd837d669edb7
+2025-07-27 14:13:37,283 - INFO - Loaded scaler from scaler.pkl
+2025-07-27 14:15:45,519 - INFO - Attempting to load model from MLflow registry...
+2025-07-27 14:15:47,568 - INFO - Loaded model class: _SklearnModelWrapper
+2025-07-27 14:15:47,568 - INFO - Successfully loaded model from models:/m-d8df864ef14d47e9972dd837d669edb7
+2025-07-27 14:15:47,568 - INFO - Loaded scaler from scaler.pkl
+2025-07-27 14:16:44,655 - INFO - Attempting to load model from MLflow registry...
+2025-07-27 14:16:46,821 - INFO - Loaded model class: _SklearnModelWrapper
+2025-07-27 14:16:46,821 - INFO - Successfully loaded model from models:/m-d8df864ef14d47e9972dd837d669edb7
+2025-07-27 14:16:46,837 - INFO - Loaded scaler from scaler.pkl
+2025-07-27 14:17:01,862 - INFO - Attempting to load model from MLflow registry...
+2025-07-27 14:17:05,281 - INFO - Loaded model class: _SklearnModelWrapper
+2025-07-27 14:17:05,281 - INFO - Successfully loaded model from models:/m-d8df864ef14d47e9972dd837d669edb7
+2025-07-27 14:17:05,281 - INFO - Loaded scaler from scaler.pkl
+2025-07-27 14:18:30,318 - INFO - Attempting to load model from MLflow registry...
+2025-07-27 14:18:32,421 - INFO - Outer MLflow model wrapper: _SklearnModelWrapper
+2025-07-27 14:18:32,547 - INFO - Successfully loaded model from models:/m-d8df864ef14d47e9972dd837d669edb7
+2025-07-27 14:18:32,549 - INFO - Loaded scaler from scaler.pkl
+2025-07-27 14:18:39,359 - INFO - Attempting to load model from MLflow registry...
+2025-07-27 14:18:41,470 - INFO - Outer MLflow model wrapper: _SklearnModelWrapper
+2025-07-27 14:18:41,482 - INFO - Successfully loaded model from models:/m-d8df864ef14d47e9972dd837d669edb7
+2025-07-27 14:18:41,484 - INFO - Loaded scaler from scaler.pkl
+2025-07-27 14:19:20,442 - INFO - Attempting to load model from MLflow registry...
+2025-07-27 14:19:22,642 - INFO - Outer MLflow model wrapper: _SklearnModelWrapper
+2025-07-27 14:19:22,653 - INFO - Successfully loaded model from models:/m-d8df864ef14d47e9972dd837d669edb7
+2025-07-27 14:19:22,656 - INFO - Loaded scaler from scaler.pkl
+2025-07-27 14:20:27,505 - INFO - Attempting to load model from MLflow registry...
+2025-07-27 14:20:29,565 - INFO - Wrapper attributes: ['_SUPPORTED_CUSTOM_PREDICT_FN', '__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'get_raw_model', 'predict', 'score', 'sklearn_model']
+2025-07-27 14:20:29,565 - INFO - get_raw_model --> <bound method _SklearnModelWrapper.get_raw_model of <mlflow.sklearn._SklearnModelWrapper object at 0x000001C847D578E0>>
+2025-07-27 14:20:29,565 - INFO - predict --> <bound method _SklearnModelWrapper.predict of <mlflow.sklearn._SklearnModelWrapper object at 0x000001C847D578E0>>
+2025-07-27 14:20:29,565 - INFO - score --> <bound method RegressorMixin.score of DecisionTreeRegressor(max_depth=10, random_state=42)>
+2025-07-27 14:20:29,565 - INFO - sklearn_model --> DecisionTreeRegressor(max_depth=10, random_state=42)
+2025-07-27 14:20:29,577 - INFO - Successfully loaded model from models:/m-d8df864ef14d47e9972dd837d669edb7
+2025-07-27 14:20:29,581 - INFO - Loaded scaler from scaler.pkl
+2025-07-27 14:22:51,483 - INFO - Attempting to load model from MLflow registry...
+2025-07-27 14:22:53,603 - WARNING - Could not find model class in wrapper.
+2025-07-27 14:22:53,603 - ERROR - Error loading model or scaler: '_SklearnModelWrapper' object has no attribute 'sk_model'
+Traceback (most recent call last):
+  File "D:\Kavitha\PythonProject\MLOps\mlops-project\src\api.py", line 69, in lifespan
+    logger.info(f"Successfully loaded model from Model Name: {type(impl.sk_model).__name__} its URI {model_uri}")
+AttributeError: '_SklearnModelWrapper' object has no attribute 'sk_model'
+2025-07-27 14:23:37,716 - INFO - Attempting to load model from MLflow registry...
+2025-07-27 14:23:39,910 - INFO - Wrapper attributes: ['_SUPPORTED_CUSTOM_PREDICT_FN', '__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'get_raw_model', 'predict', 'score', 'sklearn_model']
+2025-07-27 14:23:39,910 - INFO - get_raw_model --> <bound method _SklearnModelWrapper.get_raw_model of <mlflow.sklearn._SklearnModelWrapper object at 0x000002C0074438E0>>
+2025-07-27 14:23:39,910 - INFO - predict --> <bound method _SklearnModelWrapper.predict of <mlflow.sklearn._SklearnModelWrapper object at 0x000002C0074438E0>>
+2025-07-27 14:23:39,910 - INFO - score --> <bound method RegressorMixin.score of DecisionTreeRegressor(max_depth=10, random_state=42)>
+2025-07-27 14:23:39,910 - INFO - sklearn_model --> DecisionTreeRegressor(max_depth=10, random_state=42)
+2025-07-27 14:23:39,910 - WARNING - Could not find model class in wrapper.
+2025-07-27 14:23:39,910 - INFO - Successfully loaded model from models:/m-d8df864ef14d47e9972dd837d669edb7
+2025-07-27 14:23:39,910 - INFO - Loaded scaler from scaler.pkl
+2025-07-27 14:24:02,604 - INFO - Attempting to load model from MLflow registry...
+2025-07-27 14:24:04,687 - WARNING - Could not find model class in wrapper.
+2025-07-27 14:24:04,687 - INFO - Successfully loaded model from models:/m-d8df864ef14d47e9972dd837d669edb7
+2025-07-27 14:24:04,689 - INFO - Loaded scaler from scaler.pkl
+2025-07-27 14:25:44,619 - INFO - Attempting to load model from MLflow registry...
+2025-07-27 14:25:46,650 - WARNING - Could not determine the underlying sklearn model class.
+2025-07-27 14:25:46,650 - INFO - Successfully loaded model from models:/m-d8df864ef14d47e9972dd837d669edb7
+2025-07-27 14:25:46,654 - INFO - Loaded scaler from scaler.pkl
+2025-07-27 14:26:41,012 - INFO - Attempting to load model from MLflow registry...
+2025-07-27 14:26:44,103 - INFO - Actual model class: DecisionTreeRegressor
+2025-07-27 14:26:44,103 - INFO - Successfully loaded model from models:/m-d8df864ef14d47e9972dd837d669edb7
+2025-07-27 14:26:44,103 - INFO - Loaded scaler from scaler.pkl
+2025-07-27 16:24:06,177 - INFO - Attempting to load model from MLflow registry...
+2025-07-27 16:24:13,195 - INFO - Actual model class: DecisionTreeRegressor
+2025-07-27 16:24:13,195 - INFO - Successfully loaded model from models:/CaliforniaHousingRegressor/22
+2025-07-27 16:24:13,198 - INFO - Loaded scaler from scaler.pkl
+2025-07-27 16:42:35,211 - INFO - Attempting to load model from MLflow registry...
+2025-07-27 16:42:35,757 - ERROR - Error loading model or scaler: Registered Model with name=CaliforniaHousingRegressor not found
+Traceback (most recent call last):
+  File "d:\Kavitha\PythonProject\MLOps\mlops-project\src\api.py", line 59, in lifespan
+    ml_model = mlflow.pyfunc.load_model(model_uri)
+  File "C:\Users\Shashank2010\AppData\Roaming\Python\Python313\site-packages\mlflow\tracing\provider.py", line 439, in wrapper
+    is_func_called, result = True, f(*args, **kwargs)
+                                   ~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shashank2010\AppData\Roaming\Python\Python313\site-packages\mlflow\pyfunc\__init__.py", line 1127, in load_model
+    local_path = _download_artifact_from_uri(
+        artifact_uri=model_uri, output_path=dst_path, lineage_header_info=lineage_header_info
+    )
+  File "C:\Users\Shashank2010\AppData\Roaming\Python\Python313\site-packages\mlflow\tracking\artifact_utils.py", line 115, in _download_artifact_from_uri
+    repo = get_artifact_repository(artifact_uri=root_uri, tracking_uri=tracking_uri)
+  File "C:\Users\Shashank2010\AppData\Roaming\Python\Python313\site-packages\mlflow\store\artifact\artifact_repository_registry.py", line 144, in get_artifact_repository
+    return _artifact_repository_registry.get_artifact_repository(artifact_uri, tracking_uri)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shashank2010\AppData\Roaming\Python\Python313\site-packages\mlflow\store\artifact\artifact_repository_registry.py", line 82, in get_artifact_repository
+    return repository(artifact_uri, tracking_uri)
+  File "C:\Users\Shashank2010\AppData\Roaming\Python\Python313\site-packages\mlflow\store\artifact\models_artifact_repo.py", line 73, in __init__
+    ) = ModelsArtifactRepository._get_model_uri_infos(artifact_uri)
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\Shashank2010\AppData\Roaming\Python\Python313\site-packages\mlflow\store\artifact\models_artifact_repo.py", line 132, in _get_model_uri_infos
+    download_uri = client.get_model_version_download_uri(name, version)
+  File "C:\Users\Shashank2010\AppData\Roaming\Python\Python313\site-packages\mlflow\tracking\client.py", line 4738, in get_model_version_download_uri
+    self._raise_if_prompt(name)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Shashank2010\AppData\Roaming\Python\Python313\site-packages\mlflow\tracking\client.py", line 5338, in _raise_if_prompt
+    rm = self.get_registered_model(name)
+  File "C:\Users\Shashank2010\AppData\Roaming\Python\Python313\site-packages\mlflow\tracking\client.py", line 3949, in get_registered_model
+    rm = self._get_registry_client().get_registered_model(name)
+  File "C:\Users\Shashank2010\AppData\Roaming\Python\Python313\site-packages\mlflow\tracking\_model_registry\client.py", line 162, in get_registered_model
+    return self.store.get_registered_model(name)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Shashank2010\AppData\Roaming\Python\Python313\site-packages\mlflow\store\model_registry\file_store.py", line 423, in get_registered_model
+    raise MlflowException(
+    ...<2 lines>...
+    )
+mlflow.exceptions.MlflowException: Registered Model with name=CaliforniaHousingRegressor not found
+2025-07-27 16:43:33,436 - INFO - Attempting to load model from MLflow registry...
+2025-07-27 16:43:35,431 - INFO - Actual model class: DecisionTreeRegressor
+2025-07-27 16:43:35,432 - INFO - Successfully loaded model from models:/m-d8df864ef14d47e9972dd837d669edb7
+2025-07-27 16:43:35,433 - INFO - Loaded scaler from scaler.pkl
+2025-07-27 16:53:57,984 - INFO - Attempting to load model from MLflow registry...
+2025-07-27 16:53:58,035 - ERROR - Error loading model or scaler: Not a proper models:/ URI: models:/m-d8df864ef14d47e9972dd837d669edb7. Models URIs must be of the form 'models:/model_name/suffix' or 'models:/model_name@alias' where suffix is a model version, stage, or the string 'latest' and where alias is a registered model alias. Only one of suffix or alias can be defined at a time.
+Traceback (most recent call last):
+  File "d:\Kavitha\PythonProject\MLOps\mlops-project\src\api.py", line 58, in lifespan
+    ml_model = mlflow.pyfunc.load_model(model_uri)
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\site-packages\mlflow\tracing\provider.py", line 268, in wrapper
+    is_func_called, result = True, f(*args, **kwargs)
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\site-packages\mlflow\pyfunc\__init__.py", line 1029, in load_model
+    local_path = _download_artifact_from_uri(
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\site-packages\mlflow\tracking\artifact_utils.py", line 108, in _download_artifact_from_uri
+    repo = get_artifact_repository(artifact_uri=root_uri)
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\site-packages\mlflow\store\artifact\artifact_repository_registry.py", line 131, in get_artifact_repository
+    return _artifact_repository_registry.get_artifact_repository(artifact_uri)
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\site-packages\mlflow\store\artifact\artifact_repository_registry.py", line 76, in get_artifact_repository
+    return repository(artifact_uri)
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\site-packages\mlflow\store\artifact\models_artifact_repo.py", line 69, in __init__
+    ) = ModelsArtifactRepository._get_model_uri_infos(artifact_uri)
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\site-packages\mlflow\store\artifact\models_artifact_repo.py", line 103, in _get_model_uri_infos
+    name, version = get_model_name_and_version(client, uri)
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\site-packages\mlflow\store\artifact\utils\models.py", line 88, in get_model_name_and_version
+    (model_name, model_version, model_stage, model_alias) = _parse_model_uri(models_uri)
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\site-packages\mlflow\store\artifact\utils\models.py", line 83, in _parse_model_uri
+    raise MlflowException(_improper_model_uri_msg(uri))
+mlflow.exceptions.MlflowException: Not a proper models:/ URI: models:/m-d8df864ef14d47e9972dd837d669edb7. Models URIs must be of the form 'models:/model_name/suffix' or 'models:/model_name@alias' where suffix is a model version, stage, or the string 'latest' and where alias is a registered model alias. Only one of suffix or alias can be defined at a time.
+2025-07-27 16:56:52,024 - INFO - Attempting to load model from MLflow registry...
+2025-07-27 16:56:53,127 - INFO - Actual model class: DecisionTreeRegressor
+2025-07-27 16:56:53,127 - INFO - Successfully loaded model from models:/CaliforniaHousingRegressor/22
+2025-07-27 16:56:53,137 - INFO - Loaded scaler from scaler.pkl
+2025-07-27 16:58:52,989 - INFO - {"timestamp": "2025-07-27T16:58:52.981556", "request_id": "a2aca5a1-2648-4438-836a-84e9c062628a", "input_data": {"MedInc": 3.87, "HouseAge": 25.0, "AveRooms": 5.0, "AveBedrms": 1.0, "Population": 1200.0, "AveOccup": 2.5, "Latitude": 34.0, "Longitude": -118.0}, "scaled_data": {"MedInc": 3.87, "HouseAge": 24.999999999999993, "AveRooms": 4.999999999999997, "AveBedrms": 1.0000000000000042, "Population": 1200.0, "AveOccup": 2.500000000000003, "Latitude": 33.999999944885985, "Longitude": -2.286018954617229e+16}, "prediction": 3.125, "model_version": "CaliforniaHousingRegressor_v22"}
+2025-07-27 18:32:39,226 - INFO - {"timestamp": "2025-07-27T18:32:39.214749", "request_id": "0ae20231-8d87-4d80-a53f-d50ac26b032f", "input_data": {"MedInc": 3.87, "HouseAge": 25.0, "AveRooms": 5.0, "AveBedrms": 1.0, "Population": 1200.0, "AveOccup": 2.5, "Latitude": 34.0, "Longitude": -118.0}, "scaled_data": {"MedInc": 3.87, "HouseAge": 24.999999999999993, "AveRooms": 4.999999999999997, "AveBedrms": 1.0000000000000042, "Population": 1200.0, "AveOccup": 2.500000000000003, "Latitude": 33.999999944885985, "Longitude": -2.286018954617229e+16}, "prediction": 3.125, "model_version": "CaliforniaHousingRegressor_v22"}
+2025-07-27 19:24:44,200 - INFO - Attempting to load model from MLflow registry...
+2025-07-27 19:25:05,269 - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001896E934A00>, 'Connection to host.docker.internal timed out. (connect timeout=120)')': /api/2.0/mlflow/model-versions/search?filter=name%3D%27CaliforniaHousingRegressor%27&max_results=10000
+2025-07-27 19:25:31,014 - WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001896E934310>, 'Connection to host.docker.internal timed out. (connect timeout=120)')': /api/2.0/mlflow/model-versions/search?filter=name%3D%27CaliforniaHousingRegressor%27&max_results=10000
+2025-07-27 19:25:47,368 - INFO - Attempting to load model from MLflow registry...
+2025-07-27 19:26:08,424 - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x00000183EB9A4A90>, 'Connection to host.docker.internal timed out. (connect timeout=120)')': /api/2.0/mlflow/model-versions/search?filter=name%3D%27CaliforniaHousingRegressor%27&max_results=10000
+2025-07-27 19:26:33,973 - WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x00000183EB9A43D0>, 'Connection to host.docker.internal timed out. (connect timeout=120)')': /api/2.0/mlflow/model-versions/search?filter=name%3D%27CaliforniaHousingRegressor%27&max_results=10000
+2025-07-27 19:27:03,490 - WARNING - Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x00000183EB9A5300>, 'Connection to host.docker.internal timed out. (connect timeout=120)')': /api/2.0/mlflow/model-versions/search?filter=name%3D%27CaliforniaHousingRegressor%27&max_results=10000
+2025-07-27 19:27:41,512 - WARNING - Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x00000183EB9A5A20>, 'Connection to host.docker.internal timed out. (connect timeout=120)')': /api/2.0/mlflow/model-versions/search?filter=name%3D%27CaliforniaHousingRegressor%27&max_results=10000
+2025-07-27 19:28:35,031 - WARNING - Retrying (Retry(total=0, connect=0, read=5, redirect=5, status=5)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x00000183EB9A4D30>, 'Connection to host.docker.internal timed out. (connect timeout=120)')': /api/2.0/mlflow/model-versions/search?filter=name%3D%27CaliforniaHousingRegressor%27&max_results=10000
+2025-07-27 19:28:56,097 - ERROR - Error loading model or scaler: API request to http://host.docker.internal:5000/api/2.0/mlflow/model-versions/search failed with timeout exception HTTPConnectionPool(host='host.docker.internal', port=5000): Max retries exceeded with url: /api/2.0/mlflow/model-versions/search?filter=name%3D%27CaliforniaHousingRegressor%27&max_results=10000 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x00000183EB9A4E50>, 'Connection to host.docker.internal timed out. (connect timeout=120)')). To increase the timeout, set the environment variable MLFLOW_HTTP_REQUEST_TIMEOUT (default: 120, type: int) to a larger value.
+Traceback (most recent call last):
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\site-packages\urllib3\connectionpool.py", line 493, in _make_request
+    conn.request(
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\site-packages\urllib3\connection.py", line 494, in request
+    self.endheaders()
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\http\client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\http\client.py", line 1038, in _send_output
+    self.send(msg)
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\http\client.py", line 976, in send
+    self.connect()
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\site-packages\urllib3\connection.py", line 325, in connect
+    self.sock = self._new_conn()
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\site-packages\urllib3\connection.py", line 207, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x00000183EB9A4E50>, 'Connection to host.docker.internal timed out. (connect timeout=120)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+  [Previous line repeated 2 more times]
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='host.docker.internal', port=5000): Max retries exceeded with url: /api/2.0/mlflow/model-versions/search?filter=name%3D%27CaliforniaHousingRegressor%27&max_results=10000 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x00000183EB9A4E50>, 'Connection to host.docker.internal timed out. (connect timeout=120)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\site-packages\mlflow\utils\rest_utils.py", line 189, in http_request
+    return _get_http_response_with_retries(
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\site-packages\mlflow\utils\request_utils.py", line 237, in _get_http_response_with_retries
+    return session.request(method, url, allow_redirects=allow_redirects, **kwargs)
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\site-packages\requests\adapters.py", line 688, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='host.docker.internal', port=5000): Max retries exceeded with url: /api/2.0/mlflow/model-versions/search?filter=name%3D%27CaliforniaHousingRegressor%27&max_results=10000 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x00000183EB9A4E50>, 'Connection to host.docker.internal timed out. (connect timeout=120)'))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "d:\Kavitha\PythonProject\MLOps\mlops-project\src\api.py", line 48, in lifespan
+    model_versions = client.search_model_versions(f"name='{model_name}'")
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\site-packages\mlflow\tracking\client.py", line 4246, in search_model_versions
+    return self._get_registry_client().search_model_versions(
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\site-packages\mlflow\tracking\_model_registry\client.py", line 353, in search_model_versions
+    return self.store.search_model_versions(filter_string, max_results, order_by, page_token)
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\site-packages\mlflow\store\model_registry\rest_store.py", line 394, in search_model_versions
+    response_proto = self._call_endpoint(SearchModelVersions, req_body)
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\site-packages\mlflow\store\model_registry\base_rest_store.py", line 44, in _call_endpoint
+    return call_endpoint(
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\site-packages\mlflow\utils\rest_utils.py", line 365, in call_endpoint
+    response = http_request(**call_kwargs)
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\site-packages\mlflow\utils\rest_utils.py", line 204, in http_request
+    raise MlflowException(
+mlflow.exceptions.MlflowException: API request to http://host.docker.internal:5000/api/2.0/mlflow/model-versions/search failed with timeout exception HTTPConnectionPool(host='host.docker.internal', port=5000): Max retries exceeded with url: /api/2.0/mlflow/model-versions/search?filter=name%3D%27CaliforniaHousingRegressor%27&max_results=10000 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x00000183EB9A4E50>, 'Connection to host.docker.internal timed out. (connect timeout=120)')). To increase the timeout, set the environment variable MLFLOW_HTTP_REQUEST_TIMEOUT (default: 120, type: int) to a larger value.
+2025-07-27 19:36:28,220 - INFO - Attempting to load model from MLflow registry...
+2025-07-27 19:36:30,948 - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPConnection object at 0x00000286CCD54A90>: Failed to resolve 'mlflow' ([Errno 11001] getaddrinfo failed)")': /api/2.0/mlflow/model-versions/search?filter=name%3D%27CaliforniaHousingRegressor%27&max_results=10000
+2025-07-27 19:36:38,238 - WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPConnection object at 0x00000286CCD552A0>: Failed to resolve 'mlflow' ([Errno 11001] getaddrinfo failed)")': /api/2.0/mlflow/model-versions/search?filter=name%3D%27CaliforniaHousingRegressor%27&max_results=10000
+2025-07-27 19:36:49,422 - WARNING - Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPConnection object at 0x00000286CCD55000>: Failed to resolve 'mlflow' ([Errno 11001] getaddrinfo failed)")': /api/2.0/mlflow/model-versions/search?filter=name%3D%27CaliforniaHousingRegressor%27&max_results=10000
+2025-07-27 19:37:08,417 - WARNING - Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPConnection object at 0x00000286CCD54D30>: Failed to resolve 'mlflow' ([Errno 11001] getaddrinfo failed)")': /api/2.0/mlflow/model-versions/search?filter=name%3D%27CaliforniaHousingRegressor%27&max_results=10000
+2025-07-27 19:37:45,030 - INFO - Attempting to load model from MLflow registry...
+2025-07-27 19:37:46,487 - INFO - Actual model class: DecisionTreeRegressor
+2025-07-27 19:37:46,487 - INFO - Successfully loaded model from models:/CaliforniaHousingRegressor/18
+2025-07-27 19:37:46,487 - INFO - Loaded scaler from scaler.pkl
+2025-07-27 21:03:24,613 - INFO - Attempting to load model from MLflow registry...
+2025-07-27 21:03:27,350 - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002DD370B4A60>: Failed to resolve 'mlflow-server' ([Errno 11001] getaddrinfo failed)")': /api/2.0/mlflow/model-versions/search?filter=name%3D%27CaliforniaHousingRegressor%27&max_results=10000
+2025-07-27 21:03:34,867 - WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002DD370B5330>: Failed to resolve 'mlflow-server' ([Errno 11001] getaddrinfo failed)")': /api/2.0/mlflow/model-versions/search?filter=name%3D%27CaliforniaHousingRegressor%27&max_results=10000
+2025-07-27 21:03:46,103 - WARNING - Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002DD370B5090>: Failed to resolve 'mlflow-server' ([Errno 11001] getaddrinfo failed)")': /api/2.0/mlflow/model-versions/search?filter=name%3D%27CaliforniaHousingRegressor%27&max_results=10000
+2025-07-27 21:04:04,864 - WARNING - Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002DD370B4D90>: Failed to resolve 'mlflow-server' ([Errno 11001] getaddrinfo failed)")': /api/2.0/mlflow/model-versions/search?filter=name%3D%27CaliforniaHousingRegressor%27&max_results=10000
+2025-07-27 21:04:40,527 - WARNING - Retrying (Retry(total=0, connect=0, read=5, redirect=5, status=5)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002DD370B4EE0>: Failed to resolve 'mlflow-server' ([Errno 11001] getaddrinfo failed)")': /api/2.0/mlflow/model-versions/search?filter=name%3D%27CaliforniaHousingRegressor%27&max_results=10000
+2025-07-27 21:04:43,250 - ERROR - Error loading model or scaler: API request to http://mlflow-server:5000/api/2.0/mlflow/model-versions/search failed with exception HTTPConnectionPool(host='mlflow-server', port=5000): Max retries exceeded with url: /api/2.0/mlflow/model-versions/search?filter=name%3D%27CaliforniaHousingRegressor%27&max_results=10000 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002DD370B6380>: Failed to resolve 'mlflow-server' ([Errno 11001] getaddrinfo failed)"))
+Traceback (most recent call last):
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\socket.py", line 967, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\site-packages\urllib3\connectionpool.py", line 493, in _make_request
+    conn.request(
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\site-packages\urllib3\connection.py", line 494, in request
+    self.endheaders()
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\http\client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\http\client.py", line 1038, in _send_output
+    self.send(msg)
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\http\client.py", line 976, in send
+    self.connect()
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\site-packages\urllib3\connection.py", line 325, in connect
+    self.sock = self._new_conn()
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\site-packages\urllib3\connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPConnection object at 0x000002DD370B6380>: Failed to resolve 'mlflow-server' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\site-packages\urllib3\connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+  [Previous line repeated 2 more times]
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='mlflow-server', port=5000): Max retries exceeded with url: /api/2.0/mlflow/model-versions/search?filter=name%3D%27CaliforniaHousingRegressor%27&max_results=10000 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002DD370B6380>: Failed to resolve 'mlflow-server' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\site-packages\mlflow\utils\rest_utils.py", line 189, in http_request
+    return _get_http_response_with_retries(
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\site-packages\mlflow\utils\request_utils.py", line 237, in _get_http_response_with_retries
+    return session.request(method, url, allow_redirects=allow_redirects, **kwargs)
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\site-packages\requests\adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='mlflow-server', port=5000): Max retries exceeded with url: /api/2.0/mlflow/model-versions/search?filter=name%3D%27CaliforniaHousingRegressor%27&max_results=10000 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002DD370B6380>: Failed to resolve 'mlflow-server' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\Kavitha\PythonProject\MLOps\mlops-project\src\api.py", line 54, in lifespan
+    model_versions = client.search_model_versions(f"name='{model_name}'")
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\site-packages\mlflow\tracking\client.py", line 4246, in search_model_versions
+    return self._get_registry_client().search_model_versions(
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\site-packages\mlflow\tracking\_model_registry\client.py", line 353, in search_model_versions
+    return self.store.search_model_versions(filter_string, max_results, order_by, page_token)
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\site-packages\mlflow\store\model_registry\rest_store.py", line 394, in search_model_versions
+    response_proto = self._call_endpoint(SearchModelVersions, req_body)
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\site-packages\mlflow\store\model_registry\base_rest_store.py", line 44, in _call_endpoint
+    return call_endpoint(
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\site-packages\mlflow\utils\rest_utils.py", line 365, in call_endpoint
+    response = http_request(**call_kwargs)
+  File "C:\ProgramData\anaconda3\envs\py310env\lib\site-packages\mlflow\utils\rest_utils.py", line 212, in http_request
+    raise MlflowException(f"API request to {url} failed with exception {e}")
+mlflow.exceptions.MlflowException: API request to http://mlflow-server:5000/api/2.0/mlflow/model-versions/search failed with exception HTTPConnectionPool(host='mlflow-server', port=5000): Max retries exceeded with url: /api/2.0/mlflow/model-versions/search?filter=name%3D%27CaliforniaHousingRegressor%27&max_results=10000 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002DD370B6380>: Failed to resolve 'mlflow-server' ([Errno 11001] getaddrinfo failed)"))
